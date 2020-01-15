@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:#2c2c37;
+    padding: 8px;
+}
+.header p {
+    font-size: 13px;
+    color: white;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.bg-light{
+    /* border: 1px black solid; */
+    background-color: white !important;
+}
+.nav-container{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.navbar{
+    padding: 1.5rem 0;
+}
+.brand-section{
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.fa-star{
+    color: rgb(209, 0, 0);
+    position: absolute;
+    font-size: 35px;
+    top: 15px;
+}
+.navbar-brand{
+    font-size: 40px;
+    margin-left: 45px;
+}
+.navbar-light .navbar-nav .nav-link{
+    margin-bottom: 1px;
+    color: black;
+}
+.nav-link:hover{
+    border-bottom: 1px black solid;
+}
+.navbar-nav{
+    margin-left: 2rem;
+}
+.dropdown-button{
+  border: 1px black solid;
+  font-weight: bold;
+  outline: none;
+}
+.fa-search{
+    color: white;
+}
+.search-input{
+    width: 100% !important;
+}
+.search-bar{
+    /* border: 1px red solid; */
+    width: 29rem;
+    position: relative;
+}
+.search-btn{
+    position: absolute;
+    top: 0;
+    right: 8px;
+    background-color: #525252;
+}
+@media(max-width: 768px){
+    .dropdown{
+        display: none;
+    }
+    .search-bar {
+     width: 100%;
+    }
+}
